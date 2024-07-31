@@ -1,14 +1,30 @@
 import CartWidget from "../CartWidget/CartWidget"
-
+import logo from "../../assets/rincon-verde-logo.png"
+import { Link, NavLink } from "react-router-dom"
 const NavBar = () => {
     return (
         <nav className="nav">
-            <h3>Logo Ecommerce</h3>
-            <div>
-                <button>Botón 1</button>
-                <button>Botón 2</button>
-                <button>Botón 3</button>
-            </div>
+            <Link to="/" >
+            <img src={logo} alt="Logo de la tienda" />
+            </Link>
+
+            <ul>
+                <Link to="/categoria/Interior">
+                <p>De interior</p>
+                </Link>
+
+                <Link to="/categoria/Exterior">
+                <p>De exterior</p>
+                </Link>
+                
+                <Link to="/categoria/Macetas">
+                <p>Macetas</p>
+                </Link>
+
+                <Link to="/categoria/Accesorios">
+                <p>Accesorios</p>
+                </Link>
+            </ul>
             <CartWidget />
         </nav>
     )
