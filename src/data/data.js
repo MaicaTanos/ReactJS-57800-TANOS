@@ -5,7 +5,7 @@ const productos = [
         precio: 1500,
         categoria: "Interior",
         stock: 5,
-        imagen:"../public/img/sansevieria"
+        imagen: "../../public/img/sansevieria.webp"
     },
     {
         id: "item02",
@@ -13,7 +13,7 @@ const productos = [
         precio: 2000,
         categoria: "Interior",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/potus.webp"
     },
     {
         id: "item03",
@@ -21,7 +21,7 @@ const productos = [
         precio: 3000,
         categoria: "Exterior",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/palmera-canaria.jpg"
     },
     {
         id: "item04",
@@ -29,7 +29,7 @@ const productos = [
         precio: 2500,
         categoria: "Interior",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/maranta-s.webp"
     },
     {
         id: "item05",
@@ -37,7 +37,7 @@ const productos = [
         precio: 1800,
         categoria: "Interior",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/lazo-de-amor.webp"
     },
     {
         id: "item06",
@@ -45,7 +45,7 @@ const productos = [
         precio: 3900,
         categoria: "Exterior",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/laurel-arbusto.jpg"
     },
     {
         id: "item07",
@@ -53,7 +53,7 @@ const productos = [
         precio: 4900,
         categoria: "Exterior",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/hortensias.webp"
     },
     {
         id: "item08",
@@ -61,7 +61,7 @@ const productos = [
         precio: 3500,
         categoria: "Interior",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/helechos.webp"
     },
     {
         id: "item09",
@@ -69,7 +69,7 @@ const productos = [
         precio: 4800,
         categoria: "Interior",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/gomeros.webp"
     },
     {
         id: "item10",
@@ -77,7 +77,7 @@ const productos = [
         precio: 4500,
         categoria: "Interior",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/ficus.webp"
     },
     {
         id: "item11",
@@ -85,7 +85,7 @@ const productos = [
         precio: 3900,
         categoria: "Interior",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/dischidia-m.webp"
     },
     {
         id: "item12",
@@ -93,7 +93,7 @@ const productos = [
         precio: 3900,
         categoria: "Interior",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/cunas-de-moises.webp"
     },
     {
         id: "item13",
@@ -101,7 +101,7 @@ const productos = [
         precio: 3900,
         categoria: "Interior",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/ceropegia-woody.webp"
     },
     {
         id: "item14",
@@ -109,7 +109,7 @@ const productos = [
         precio: 5500,
         categoria: "Exterior",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/camellia.webp"
     },
     {
         id: "item15",
@@ -117,7 +117,7 @@ const productos = [
         precio: 0,
         categoria: "Exterior",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/arbol-limon.webp"
     },
     {
         id: "item16",
@@ -125,39 +125,39 @@ const productos = [
         precio: 8000,
         categoria: "Accesorios",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/burbuja-regadora.webp"
     },
     {
         id: "item17",
         nombre: "Regadera",
         precio: 25000,
-        categoria: "Accesorio",
+        categoria: "Accesorios",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/regadera.webp"
     },
     {
         id: "item18",
         nombre: "Pie maceta hierro",
         precio: 15000,
-        categoria: "Accesorio",
+        categoria: "Accesorios",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/pie-maceta-3.jpg"
     },
     {
         id: "item19",
         nombre: "Pie de maceta x3",
         precio: 28000,
-        categoria: "Accesorio",
+        categoria: "Accesorios",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/pie-maceta-2.jpg"
     },
     {
         id: "item20",
         nombre: "Pie de maceta madera",
         precio: 22000,
-        categoria: "Accesorio",
+        categoria: "Accesorios",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/pie-maceta.jpg"
     },
     {
         id: "item21",
@@ -165,7 +165,7 @@ const productos = [
         precio: 19000,
         categoria: "Macetas",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/macetas-colgantes-15cm.webp"
     },
     {
         id: "item22",
@@ -173,7 +173,7 @@ const productos = [
         precio: 19000,
         categoria: "Macetas",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/macetas-cemento.webp"
     },
     {
         id: "item23",
@@ -181,15 +181,15 @@ const productos = [
         precio: 19000,
         categoria: "Macetas",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/macetas-canasto.webp"
     },
     {
         id: "item24",
         nombre: "Insecticida orgánico",
         precio: 9900,
-        categoria: "Accesorio",
+        categoria: "Accesorios",
         stock: 5,
-        imagen:""
+        imagen:"../../public/img/insecticida-organico.webp"
     }
 ]
 

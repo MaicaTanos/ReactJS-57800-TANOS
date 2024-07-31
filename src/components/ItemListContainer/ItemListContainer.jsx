@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
-import ItemList from "../ItemList/ItemList"
 import obtenerProductos from "../../data/data"
+import ItemList from "../ItemList/ItemList"
 import { useParams } from "react-router-dom"
 
 
@@ -14,17 +14,17 @@ const ItemListContainer = ({greeting}) => {
 
     useEffect(() => {
         obtenerProductos()
-        .then(response => {
+        .then(respuesta => {
             if (categoriaId) {
-                const filtroPorductos = response.filter((producto)=> producto.categoria === categoriaId)
-                setProductos(filtroPorductos)
+                const filtroProductos = respuesta.filter((producto)=> producto.categoria === categoriaId)
+                setProductos(filtroProductos)
 
             } else {
-                setProductos(response)
+                setProductos(respuesta)
             }
             
         })
-        .catch(error => {
+        .catch((error) => {
             console.error(error)
         })
         .finally(() =>{

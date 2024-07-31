@@ -14,8 +14,31 @@
   justify-content: space-around;
   align-items: center;
   background-color: rgba(196, 97, 97, 0.778);
+  margin-bottom: 15vh;
 }
 
 button {
   margin: 50px;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 10vw;
+  row-gap: 15vh;
+
+  /* display: flex;
+  height: 100px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; */
+  
+}
+
+.imgProd {
+  width: 15vw;
+}
+
+.btnDetalles {
+  color: green;
 }

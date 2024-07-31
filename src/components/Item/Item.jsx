@@ -1,21 +1,21 @@
 import { Link } from "react-router-dom"
 
-const Item = ({id, nombre, precio, stock, imagen}) => {
+const Item = ({producto}) => {
 
     return (
     <article>
         <header>
-            <h2>{nombre}</h2>
+            <h2>{producto.nombre}</h2>
         </header>
         <picture>
-            <img src={imagen} alt={nombre} />
+            <img src={producto.imagen} alt={producto.nombre} className="imgProd" />
         </picture>
         <section>
-            <p>Precio: ${precio}</p>
-            <p>Stock: {stock}</p>
+            <p>Precio: ${producto.precio}</p>
+            <p>Stock: {producto.stock}</p>
         </section>
         <footer>
-           <Link to={`/item/${id}`} >Ver detalles</Link>
+           <Link to={"detalle/" + producto.id} className="btnDetalles">Ver detalles</Link>
         </footer>
     </article>
   )
