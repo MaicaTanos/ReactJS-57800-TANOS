@@ -4,12 +4,12 @@ const Item = ({producto}) => {
 
     return (
     <article>
-        <header>
-            <h2>{producto.nombre}</h2>
-        </header>
         <picture>
             <img src={producto.imagen} alt={producto.nombre} className="imgProd" />
         </picture>
+        <header>
+            <h2>{producto.nombre}</h2>
+        </header>
         <section>
             <p>Precio: ${producto.precio}</p>
             <p>Stock: {producto.stock}</p>
