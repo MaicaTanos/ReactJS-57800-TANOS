@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Tenor+Sans&display=swap');
 
 .carrito {
   width: 50px;
@@ -35,6 +35,10 @@ button {
   column-gap: 10vw;
   row-gap: 15vh;
   justify-content: space-around;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .imgProd {
@@ -43,4 +47,8 @@ button {
 
 .btnDetalles {
   color: green;
+}
+
+.contador {
+  display: flex;
 }
