@@ -1,6 +1,6 @@
 import CartWidget from "../CartWidget/CartWidget"
 import logo from "../../assets/rincon-verde-logo.png"
-import { Link, NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 const NavBar = () => {
     return (
         <nav className="nav">

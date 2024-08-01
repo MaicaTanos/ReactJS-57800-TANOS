@@ -9,9 +9,13 @@ const ItemDetail = ({producto}) => {
     }
 
   return (
-    <div>
-        <img src={producto.imagen} alt= {producto.nombre} />
-        <h2>{producto.nombre}</h2>
+    <div className='itemDetalle'>
+        <img src={producto.imagen} alt= {producto.nombre} className='detImg' />
+        <h1 className='tituloDet'>{producto.nombre}</h1>
+        <article className='precioDesc'> 
+            <h2>${producto.precio}</h2>
+            <h3>{producto.descripcion}</h3>
+        </article>
 
         <ItemCount stock={producto.stock} agregarCarrito={agregarCarrito}/>
     </div>
@@ -19,25 +23,4 @@ const ItemDetail = ({producto}) => {
 }
 
 export default ItemDetail
-
-// const ItemDetail = ({id, detalle, nombre, categoria, imagen, precio, stock}) => {
-//   return (
-//     <article>
-//         <header>
-//             <h2>{nombre}</h2>
-//         </header>
-//         <picture>
-//             <img src={imagen} alt={nombre} />
-//         </picture>
-//         <section>
-//             <p>Categoría: {categoria}</p>
-//             <p>Descripción: {detalle}</p>
-//             <p>Precio: ${precio}</p>
-//         </section>
-//         <footer>
-//             <ItemCount initial={1} stock={stock} onAdd={(quantity => console.log("Cantidad agregada ", quantity))}/>
-//         </footer>
-//     </article>
-//   )
-// }
 

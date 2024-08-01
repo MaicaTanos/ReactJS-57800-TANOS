@@ -5,7 +5,8 @@ const productos = [
         precio: 1500,
         categoria: "Interior",
         stock: 5,
-        imagen: "../../public/img/sansevieria.webp"
+        imagen: "../../public/img/sansevieria.webp",
+        descripcion: "Sansevieria / Lengua de suegra. No necesita mucha agua, solo lo suficiente cuando la tierra se vea seca quizás cada 10/15 días. Se adapta muy bien a lugares oscuros (aunque no sin luz), pero prospera con luz natural. Es recomendable que cada tanto se le limpien el polvo de las hojas."
     },
     {
         id: "item02",
@@ -189,7 +190,7 @@ const productos = [
         precio: 9900,
         categoria: "Accesorios",
         stock: 5,
-        imagen:"../../public/img/insecticida-organico.webp"
+        imagen:"../../img/insecticida-organico.webp"
     }
 ]
 

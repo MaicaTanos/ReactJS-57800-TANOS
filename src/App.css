@@ -1,33 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Tenor+Sans&display=swap');
 
-.carrito {
-  width: 50px;
-  margin-right: 5vw;
-}
-
 .nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(196, 97, 97, 0.778);
+  background-color: #dfcdbf;
   margin-bottom: 15vh;
 }
 
+.carrito {
+  width: 40px;
+  margin-right: 5vw;
+  
+}
+
+
 .btncateg {
   display: flex;
+  font-family: "Comfortaa", sans-serif;
+  font-size:1.5em;
+  text-shadow: 2px 2px #a7a5a5;
 }
 
 .btn {
   margin-right: 5vw;
-}
+}|
 
 .logoimg{
   width: 200px;
 }
 
-button {
+/* button {
   margin: 50px;
-}
+} */
 
 .contenedor {
   display: grid;
@@ -41,14 +46,95 @@ button {
   font-style: normal;
 }
 
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
 .imgProd {
   width: 15vw;
 }
 
-.btnDetalles {
+.btnDetalles {background-color: #ddd;
+  border: none;
+  padding: 10px 20px;
   color: green;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+
+.detImg {
+  width: 40vw;
+  grid-area: img;
+  justify-self: center;
+}
+
+
+.tituloDet {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  font-style: normal;
+  grid-area: titulo;
+}
+
+.precioDesc {
+  grid-area: precioDesc;
+}
+.precioDesc h2 {
+  color: rgb(60, 62, 61);
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.precioDesc h3 {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 200;
+  text-align: justify;
+  text-justify: inter-word;
+  word-spacing: -0.3em;
+  line-height: 1.4em;
+  padding: 10px;
 }
 
 .contador {
-  display: flex;
+  grid-area: contador;
+  width:160px;
+  justify-self: center;
 }
+
+.controles {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.controles button {
+  width: 50px;
+  height: 30px;
+}
+.agregar {
+width: 100px;
+height: 40px;
+display: grid;
+align-content: center;
+align-items: center;
+}
+
+.itemDetalle {
+  display:grid;
+  grid-template-columns: 55vw 30vw;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "img titulo" "img precioDesc" "img contador";
+  column-gap: none;
+  justify-content: center;
+}
+

@@ -16,7 +16,7 @@ const ItemDetailContainer = () => {
             const productoEncotrado = data.find((productoData) => productoData.id === idProducto)
             setProducto(productoEncotrado)
         })
-    },[])
+    }, [])
   
   
     return (
