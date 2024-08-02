@@ -14,15 +14,17 @@ const productos = [
         precio: 2000,
         categoria: "Interior",
         stock: 5,
-        imagen:"../../public/img/potus.webp"
+        imagen:"../../public/img/potus.webp",
+        descripcion: "Epipremnum aureum. Es felíz en sombra como también lugares bien iluminados, pero no a sol directo. No necesita mucha agua, 1 o 2 veces por semana. Adora los ambientes húmedos. Se recomienda rociar con agua."
     },
     {
         id: "item03",
-        nombre: "Palmera",
+        nombre: "Palmera canaria",
         precio: 3000,
         categoria: "Exterior",
         stock: 5,
-        imagen:"../../public/img/palmera-canaria.jpg"
+        imagen:"../../public/img/palmera-canaria.jpg",
+        descripcion: "Phoenix canariensis. Adora el sol, pero es recomendable colocarla en un lugar donde reciba sombra en algún momento del día. Perfecta para lugares secos. Se aconseja fertilizar una vez al mes en temporada de primavera y verano."
     },
     {
         id: "item04",
@@ -30,7 +32,8 @@ const productos = [
         precio: 2500,
         categoria: "Interior",
         stock: 5,
-        imagen:"../../public/img/maranta-s.webp"
+        imagen:"../../public/img/maranta-s.webp",
+        descripcion: "Maranta leuconeura. Conocida como 'planta de oración' por sus movimientos dependientes de la lus del sol. Prefiere lugares muy bien iluminados, pero no sol directo, y su suelo más bien seco. Disfruta de un ambiente húmedo, así que se recomienda rociarla con agua."
     },
     {
         id: "item05",
@@ -38,7 +41,8 @@ const productos = [
         precio: 1800,
         categoria: "Interior",
         stock: 5,
-        imagen:"../../public/img/lazo-de-amor.webp"
+        imagen:"../../public/img/lazo-de-amor.webp",
+        descripcion: "Chlorophytum. Se desarrolla muy bien con poca agua. Se adapta a cualquier condición de luz, pero no soporta el sol directo."
     },
     {
         id: "item06",
@@ -46,7 +50,8 @@ const productos = [
         precio: 3900,
         categoria: "Exterior",
         stock: 5,
-        imagen:"../../public/img/laurel-arbusto.jpg"
+        imagen:"../../public/img/laurel-arbusto.jpg",
+        descripcion: "Laurus Nobilis. Se desarrolla muy bien en partes bien soleadas. Prefiere el suelo húmedo, pero no encharcado. Es recomendable fertilizar una vez al mes en primavera y verano."
     },
     {
         id: "item07",
@@ -54,7 +59,8 @@ const productos = [
         precio: 4900,
         categoria: "Exterior",
         stock: 5,
-        imagen:"../../public/img/hortensias.webp"
+        imagen:"../../public/img/hortensias.webp",
+        descripcion: "Mophead Hydrangea. Es felíz donde reciba el sol de la mañana, pero la sombra de la tarde. Prefiere el suelo húmedo, para desarrollar bien sus flores."
     },
     {
         id: "item08",
@@ -62,7 +68,8 @@ const productos = [
         precio: 3500,
         categoria: "Interior",
         stock: 5,
-        imagen:"../../public/img/helechos.webp"
+        imagen:"../../public/img/helechos.webp",
+        descripcion: "Nephrolepis exaltata. Prefiere suelos y ambientes bien húmedos. Se desarrolla mejor en ambientes con poca luz."
     },
     {
         id: "item09",
@@ -70,7 +77,8 @@ const productos = [
         precio: 4800,
         categoria: "Interior",
         stock: 5,
-        imagen:"../../public/img/gomeros.webp"
+        imagen:"../../public/img/gomeros.webp",
+        descripcion: "Ficus robusta. Prefiere suelo más bien seco y ambientes bien iluminados. Sus hojas pueden absorver mucha humedad, así que es recomendable rociarlo con agua."
     },
     {
         id: "item10",
@@ -78,7 +86,8 @@ const productos = [
         precio: 4500,
         categoria: "Interior",
         stock: 5,
-        imagen:"../../public/img/ficus.webp"
+        imagen:"../../public/img/ficus.webp",
+        descripcion: "Ficus Benjamina. Prefiere suelos gentilmente húmedos, pero no encharcados. Mucha luz, pero no sol directo."
     },
     {
         id: "item11",
@@ -86,7 +95,8 @@ const productos = [
         precio: 3900,
         categoria: "Interior",
         stock: 5,
-        imagen:"../../public/img/dischidia-m.webp"
+        imagen:"../../public/img/dischidia-m.webp",
+        descripcion: "Dischidia ovata. Prefiere la luz indirecta.Es resistente a las sequías, así que sería necesario regarla cuando la tierra superficial se sienta seca. "
     },
     {
         id: "item12",
@@ -94,7 +104,8 @@ const productos = [
         precio: 3900,
         categoria: "Interior",
         stock: 5,
-        imagen:"../../public/img/cunas-de-moises.webp"
+        imagen:"../../public/img/cunas-de-moises.webp",
+        descripcion: "Spathiphyllum wallisii. Se adapta perfectamente a cualquier condición de luz, pero sus flores se desarrollan mejor en lugares brillantes. No requiere de cuidados especiales en cuanto al riego."
     },
     {
         id: "item13",
@@ -102,7 +113,8 @@ const productos = [
         precio: 3900,
         categoria: "Interior",
         stock: 5,
-        imagen:"../../public/img/ceropegia-woody.webp"
+        imagen:"../../public/img/ceropegia-woody.webp",
+        descripcion: "Ceropegia woodii. Prefiere suelos más bien secos. Se adapta bien en cuanto a la iluminación."
     },
     {
         id: "item14",
@@ -110,7 +122,8 @@ const productos = [
         precio: 5500,
         categoria: "Exterior",
         stock: 5,
-        imagen:"../../public/img/camellia.webp"
+        imagen:"../../public/img/camellia.webp",
+        descripcion: "Camellia Japonica. Prefiere los lugares protegidos del sol, aunque con buenos cuidados puede desarrollarse bien al sol directo. Prefiere el suelo bien húmedo, y para su correcto crecimiento requiere de poda al finalizar la floración."
     },
     {
         id: "item15",
@@ -118,7 +131,8 @@ const productos = [
         precio: 0,
         categoria: "Exterior",
         stock: 5,
-        imagen:"../../public/img/arbol-limon.webp"
+        imagen:"../../public/img/arbol-limon.webp",
+        descripcion: "Mucho, mucho sol. Prefiere suelos bien húmedos, y para optimizar el crecimiento de fruta, se puede utilzar fertilizantes en primavera y verano."
     },
     {
         id: "item16",
@@ -126,7 +140,8 @@ const productos = [
         precio: 8000,
         categoria: "Accesorios",
         stock: 5,
-        imagen:"../../public/img/burbuja-regadora.webp"
+        imagen:"../../public/img/burbuja-regadora.webp",
+        descripcion: "Dispenser de agua para tus macetas. Ayudan a mantenerlas hidratadas y felices."
     },
     {
         id: "item17",
@@ -134,7 +149,8 @@ const productos = [
         precio: 25000,
         categoria: "Accesorios",
         stock: 5,
-        imagen:"../../public/img/regadera.webp"
+        imagen:"../../public/img/regadera.webp",
+        descripcion: "Regadera de acero inoxidiable, color matte. Capacidad de 1.25lts"
     },
     {
         id: "item18",
@@ -142,7 +158,8 @@ const productos = [
         precio: 15000,
         categoria: "Accesorios",
         stock: 5,
-        imagen:"../../public/img/pie-maceta-3.jpg"
+        imagen:"../../public/img/pie-maceta-3.jpg",
+        descripcion: "Base para macetas hecho de madera con pie de hierro. 80cm de altura."
     },
     {
         id: "item19",
@@ -150,7 +167,8 @@ const productos = [
         precio: 28000,
         categoria: "Accesorios",
         stock: 5,
-        imagen:"../../public/img/pie-maceta-2.jpg"
+        imagen:"../../public/img/pie-maceta-2.jpg",
+        descripcion: "Base para macetera con capacidad para 3 macetas de 20cm."
     },
     {
         id: "item20",
@@ -158,7 +176,8 @@ const productos = [
         precio: 22000,
         categoria: "Accesorios",
         stock: 5,
-        imagen:"../../public/img/pie-maceta.jpg"
+        imagen:"../../public/img/pie-maceta.jpg",
+        descripcion: "Porta maceta de madera de pino. 80cm de altura."
     },
     {
         id: "item21",
@@ -166,7 +185,8 @@ const productos = [
         precio: 19000,
         categoria: "Macetas",
         stock: 5,
-        imagen:"../../public/img/macetas-colgantes-15cm.webp"
+        imagen:"../../public/img/macetas-colgantes-15cm.webp",
+        descripcion: "Macetas tamaño 20. Se pueden utilizar tanto en interior o exterior."
     },
     {
         id: "item22",
@@ -174,7 +194,8 @@ const productos = [
         precio: 19000,
         categoria: "Macetas",
         stock: 5,
-        imagen:"../../public/img/macetas-cemento.webp"
+        imagen:"../../public/img/macetas-cemento.webp",
+        descripcion: "Macetas de 30cm x 40cm."
     },
     {
         id: "item23",
@@ -182,7 +203,8 @@ const productos = [
         precio: 19000,
         categoria: "Macetas",
         stock: 5,
-        imagen:"../../public/img/macetas-canasto.webp"
+        imagen:"../../public/img/macetas-canasto.webp",
+        descripcion: "Porta macetas de yute. Para macetas de 30cm."
     },
     {
         id: "item24",
@@ -190,7 +212,8 @@ const productos = [
         precio: 9900,
         categoria: "Accesorios",
         stock: 5,
-        imagen:"../../img/insecticida-organico.webp"
+        imagen:"../../img/insecticida-organico.webp",
+        descripcion: "Mezcla natural y vegana para protejer tus plantas de los insectos y hongos."
     }
 ]
 

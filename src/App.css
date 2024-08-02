@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #dfcdbf;
-  margin-bottom: 15vh;
+  margin-bottom: 10vh;
 }
 
 .carrito {
@@ -24,16 +24,20 @@
 
 .btn {
   margin-right: 5vw;
-}|
+}
 
 .logoimg{
   width: 200px;
 }
 
-/* button {
-  margin: 50px;
-} */
-
+.greeting {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 4em;
+  margin-bottom: 10vh;
+  text-align: center;
+  text-shadow: 2px 2px #a7a5a5;
+  
+}
 .contenedor {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -80,9 +84,10 @@
 
 .tituloDet {
   font-family: "Comfortaa", sans-serif;
-  font-size: 50px;
+  font-size: 3.5em;
   font-weight: 700;
   font-style: normal;
+  padding-top: 5vh;
   grid-area: titulo;
 }
 
@@ -118,16 +123,26 @@
 }
 
 .controles button {
-  width: 50px;
-  height: 30px;
+  width: 40px;
+  height: 25px;
+  border-radius: 15px;
+  background-color:#f1e1d4;
 }
 .agregar {
-width: 100px;
-height: 40px;
-display: grid;
-align-content: center;
-align-items: center;
+display: flex;
+justify-content: center;
+margin-top: 10px;
 }
+
+.agregar button {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  background-color:#f1e1d4;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+}
+
 
 .itemDetalle {
   display:grid;
